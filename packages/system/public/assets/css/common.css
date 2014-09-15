@@ -12,14 +12,22 @@ a{
 .rb-gradient-1{
 	background: linear-gradient(to right, rgb(12, 15, 16) 0%, rgb(24, 28, 29) 50%, rgb(12, 15, 16) 100%);
 }
-div.rb_default_center{
-	margin:auto;
-	width:1200px;
+.default-center{
+	margin:auto !important;
+	
+}
+.default_width{
+	width:1200px !important;
 }
 
-.border-black{
+div.main-center-fixed{
+	position:fixed;
+	height:100%;
+	width:1200px !important;
+	background-color: #111415;
 	border-left:1px solid #000;
 	border-right:1px solid #000;
+	z-index:0;
 }
 
 
@@ -37,6 +45,8 @@ header.rb-header{
 	position:fixed;
 	height:120px;
 	width:100%;
+
+	z-index:100;
 	background-color:#FFF;
 }
 
@@ -131,15 +141,11 @@ form.login-form  input[type='submit']:hover{
 }
 
 section.main-content{
+	position:relative;
 	float:left;
 	margin-top:120px;
 	width:100%;
-}
-
-section.data-main-content{
-	float:left;
-	width:100%;
-	background-color: #111415;
+	z-index:1;
 }
 
 

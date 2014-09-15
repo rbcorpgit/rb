@@ -1,9 +1,10 @@
 div.sc-stripper-box{
 	float: left;
-	height: 200px;
+	height: 227px;
 	width: 281px;
 	margin: 15px 0 0 15px;
 
 	border: 1px solid #000;
 	background-color: #191D1E;
+	background-image:url('/showcase/assets/img/stripper.png');
 }

@@ -14,11 +14,11 @@ angular.module('mean.system').config(['$stateProvider', '$urlRouterProvider',
         url : '/',
         templateUrl  : 'showcase/views/index.html',
         controller : 'ShowcaseController'
+      })
+      .state('main.register',{
+        url : '/cadastro',
+        templateUrl  : 'users/views/register.html'
       });
-      // .state('main.register',{
-      //   url : '/cadastro',
-      //   templateUrl  : 'users/views/register.html'
-      // });
   }
 ]).config(['$locationProvider',
   function($locationProvider) {
